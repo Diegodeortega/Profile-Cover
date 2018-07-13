@@ -1,0 +1,98 @@
+* {
+  color: #aebacb; }
+
+body {
+  height: 100vh;
+  font-family: Arial; }
+
+i {
+  padding-left: 10px; }
+
+img {
+  width: 70px;
+  height: 80px;
+  border-radius: 200%;
+  margin-top: 5px;
+  margin-left: 90px;
+  border: 1px solid #b4c1d2; }
+
+.box {
+  /*  margin-left: 30%; */
+  border: 1px solid #b4c1d2;
+  border-radius: 3px;
+  width: 250px;
+  height: 47%;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  /* */
+  transform: translatey(-30%);
+  background-color: #dae1e9;
+  display: flex;
+  flex-wrap: wrap; }
+  .box__box {
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 0; }
+  .box__image--info {
+    width: 82%;
+    font-size: 12px;
+    padding-left: 35px;
+    padding-right: 0; }
+  .box__name {
+    color: #545a60;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-left: 45px; }
+  .box__twitter--account {
+    color: #545a60;
+    font-size: 11px;
+    padding-left: 60px; }
+  .box__contact {
+    width: 73%;
+    padding-top: 10px;
+    margin: 8px 0 0 0;
+    height: 30px;
+    padding-left: 68px;
+    background-color: #f1f3f6;
+    border-top: 1px solid #eceef3;
+    border-bottom: 1px solid #d8dde4;
+    display: flex;
+    justify-content: row;
+    position: relative; }
+  .box__comment {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+    left: 161px;
+    position: absolute; }
+  .box__socialmedia {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: row;
+    font-size: 12.5px;
+    margin: 10px 0 10px 5px; }
+  .box__number {
+    color: #646465; }
+  .box__twitter {
+    width: 70px;
+    height: auto;
+    padding-left: 20px; }
+
+.right {
+  padding-left: 5px; }
+
+.one {
+  padding-left: 25px; }
+
+.two {
+  padding-left: 0; }
+
+.three {
+  padding-left: 2px; }
+
+.left {
+  padding-left: 13px; }
